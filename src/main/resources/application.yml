@@ -1,0 +1,11 @@
+spring:
+  data:
+    mongodb:
+      username: alibou
+      password: alibou
+      host: 192.168.0.107
+      port: 27017
+      database: chat_app
+      authentication-database: admin
+server:
+  port: 8089
